@@ -33,8 +33,12 @@ a {
   display: inline-block;
   color: #0074d9;
   background-color: #e2e2e2;
-  border-style: solid;
   text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
 }
 
 a:hover {
