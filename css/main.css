@@ -24,3 +24,32 @@ body {
 .img-flex {
   width: 100%;
 }
+
+header {
+  background-color: #e2e2e2;
+}
+
+a {
+  display: inline-block;
+  color: #0074d9;
+  background-color: #e2e2e2;
+  border-style: solid;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  background-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h2 {
+    text-align: left;
+  }
+}
